@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../OneStopShop/.idea/OneStopShop.iml" filepath="$PROJECT_DIR$/../OneStopShop/.idea/OneStopShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../OneStopShopLoginVersion/.idea/OneStopShopLoginVersion.iml" filepath="$PROJECT_DIR$/../OneStopShopLoginVersion/.idea/OneStopShopLoginVersion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/login-system.iml" filepath="$PROJECT_DIR$/.idea/login-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my-digital-diary/.idea/my-digital-diary.iml" filepath="$PROJECT_DIR$/../my-digital-diary/.idea/my-digital-diary.iml" />
+    </modules>
+  </component>
+</project>
