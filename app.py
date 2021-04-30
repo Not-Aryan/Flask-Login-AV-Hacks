@@ -25,21 +25,6 @@ def index():
         flash('Account created successfully!')
         return redirect('/login')
 
-@app.route('/login', methods=['GET', 'POST'])
-def loginn():
-    if request.method == "GET":
-        return render_template('login.html')
-    elif request.method == 'POST':
-        docc = {'Email': request.form['login-email'], 'Password': request.form['login-password']}
-        found = mongo.db.users.find_one(docc)
-        if found is None:
-            flash("The email/password doesn't work. Try again")
-            return redirect("/login")
-        else:
-            print("CORRECT")
-            print(found)
-            session['user-info'] = {'firstName': found['First Name'], 'lastName': found['Last Name'],'email': found['Email']}
-            return redirect("/home")
 
 @app.route('/home')
 def home():
